@@ -29,6 +29,8 @@ public class CardReceipt {
 		this.responseMessage = responseMessage;
 		this.responseActionText = responseActionText;
 	}
+	
+	CardReceipt() {}
 
 	public int getReceiptNo() {
 		return receiptNo;
